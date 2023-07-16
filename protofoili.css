@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("Ali.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+.name {
+  position: relative;
+  left: 30px;
+  top: 11px;
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+.Nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 300px;
+}
+
+.Nav ul li a {
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  padding-left: 45px;
+  color: white;
+  left: 12px;
+  top: 23px;
+}
+
+.Nav ul li a:hover {
+  color: red;
+}
+.btn {
+  position: relative;
+  top: 15px;
+  right: 30px;
+}
+.Mar {
+  color: white;
+}
+
+.btn0 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 35px;
+  width: 90px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 3px solid white;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out, color 0.4s;
+}
+.btn0:hover {
+  background-color: rgb(211, 70, 70);
+  color: black;
+  border: 2px solid wheat;
+}
+.Container1 {
+  height: 690px;
+  width: 520px;
+  margin-left: 120px;
+  margin-top: 120px;
+  line-height: 25px;
+}
+h3 {
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: red;
+}
+h1 {
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+.btn1 {
+  height: 35px;
+  width: 100px;
+  background-color: rgb(211, 70, 70);
+  border-radius: 15px;
+  border: 2px solid white;
+  transition: background-color 0.4s ease-in-out, color 0.5s;
+  color: white;
+}
+.btn1:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.Container1 p {
+  color: white;
+  font-weight: 300;
+}
+span {
+  font-weight: bolder;
+}
+.btn1 a {
+  color: white;
+  text-decoration: none;
+}
+.Title{
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: red;
+}
+.ExtraContent{
+  position: relative;
+  bottom: 800px;
+  left: 780px;
+}
+#Difficulty{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 15px;
+  padding-left: 300px;
+}
+.HTMLDocuments nav ul li{
+  list-style: none;
+}
+.HTMLDocuments nav ul li a{
+  position: relative;
+  left: 350px;
+}
+.First{
+  position: relative;
+  top: 40px;
+  
+  color: rgb(212, 89, 89);
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  text-decoration: none;
+}
+.Second{
+  position: relative;
+  top: 60px;
+
+  color: rgb(212, 89, 89);
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  text-decoration: none;
+}
+.third{
+  position: relative;
+  top: 75px;
+
+  color: rgb(212, 89, 89);
+  
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  text-decoration: none;
+} 

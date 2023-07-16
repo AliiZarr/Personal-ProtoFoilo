@@ -1,0 +1,149 @@
+body{
+    margin-top: 70px;
+    background-color: hsl(204, 43%, 93%);
+}
+.WholeBody{
+    font-family: 'Climate Crisis', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box{
+    height: 450px;
+    width: 350px;
+    border-radius: 30px;
+    background-color: rgb(186, 186, 186);
+    overflow: hidden;
+    
+}
+.Title{
+    padding-top: 10px;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title h1{
+    font-family: 'Climate Crisis', cursive;
+    font-size: 30px;
+    opacity: 0.9;
+    color: white;
+    text-decoration: transparent;
+}
+.One{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.Second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.One #FirstInput{
+    width: 300px;
+    height: 40px;  
+    border: 1px solid white;
+    border-bottom: 2px solid black;
+    background-color: transparent; 
+    transition: all 0.3s ease;
+}
+
+ #FirstInput[type = "mail"]{
+    border: none; 
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.Second #SecondInput{
+    width: 300px;
+    height: 40px;  
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+#SecondInput[type = "password"]{
+    border: none; 
+    outline: none;
+    border-bottom: 2px solid black;   
+    transition: all 0.3s ease;
+}
+#SecondInput[type = "password"]:hover,#SecondInput[type = "password"]:focus{
+    padding-top: 15px;
+}
+#SecondInput[type = "password"]:hover,#FirstInput[type = "mail"]:focus{
+    padding-top: 15px;
+}
+.LowerOne{
+    
+    display: flex;
+    padding-left: 20px;
+}
+.rem{
+    
+    font-weight: 400;
+}
+.Forget{
+    padding-top: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 70px;
+    color: rgb(0, 78, 89);
+    font-family: 'Climate Crisis', cursive;
+}
+.Forget:hover{
+    cursor: pointer;
+}
+.FirstInput, :placeholder-shown{
+    padding-left: 20px;
+}
+button{   
+    width: 330px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid wheat;
+    margin-left: 10px;
+    margin-top: 30px;   
+    background-color: rgb(97, 125, 125) ;
+    transition: background-color 0.4s ease-in-out, color 0.5s;
+    color: white;
+    font-family: 'Climate Crisis', cursive;
+    font-size: larger;
+}
+button:hover{
+    cursor: pointer;
+    background-color: transparent; 
+    cursor: pointer;
+    color: black;
+    border: 2px solid white;
+    font-family: 'Climate Crisis', cursive;
+    
+
+}
+.Ending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    color: rgb(6, 1, 1);
+    padding-right: 5px;
+}
+.para:hover{
+    color: rgb(24, 23, 23);
+}
+.signin{
+    color: rgb(0, 36, 42);
+    font-weight: bold;    
+}
+.signin:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+    font-weight: bolder;    
+}
+
+  
+  
+
+  

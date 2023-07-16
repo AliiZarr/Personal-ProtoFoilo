@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;   
+}
+body{
+    position: relative;
+    left: 400px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color:  hsl(204, 43%, 93%);
+}
+.box{
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 7px;
+    height: 537px;
+    width: 560px;
+    background-color: hsl(0, 100%, 100%);      
+}
+.TopSec{
+    border-radius: 2px;
+    height: 250px;
+    width: 100%; 
+    box-sizing: inherit;   
+}
+.Bot{
+    display: flex;
+    height: 266px;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 2px;
+    border-radius: 8px;
+}
+.LeftBot{
+    
+    background-color:  hsl(179, 62%, 43%);
+    flex-basis: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+.RightBot{
+    
+    flex-basis: 50%;
+    background-color:  hsl(179, 44%, 56%);
+    
+}
+.TopSec h2{
+    padding-top: 15px;
+    padding-left: 30px;
+    color: rgb(57, 181, 238);
+}
+.TopSec h4{
+    padding-left: 30px;
+    padding-top: 5px;
+    color: rgb(144, 196, 66);
+}
+.TopSec p{
+    padding-left: 30px;
+    color: gray;      
+}
+.LeftBot h3{
+    padding-top: 10px;
+    color:  hsl(0, 100%, 100%);
+    font-weight: bold;
+    
+    
+}
+.cash{
+    display: flex;
+    padding-left: 20px;
+}
+.doll{
+    font-size: xx-large;  
+    color: hsl(0, 100%, 100%);
+    font-weight: 550;
+}
+.price{
+    padding-left: 5px;
+    padding-top: 10px;
+    opacity: 0.8;
+    color: hsl(0, 100%, 100%);
+
+}
+.LeftBot p{
+    color: hsl(0, 100%, 100%);
+    opacity: 1;
+}
+.LeftBot button{
+    width: 80%;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    font-weight: 800;
+    font-size: 13px;
+    padding: 12px 0;
+    border-radius: 12px;
+    border: 2px solid hsl(71, 73%, 54%);
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out, color 0.3s;
+}
+.RightBot h3{
+    padding-top: 5px;
+    padding-left: 25px;
+    color: hsl(0, 100%, 100%);
+}
+.RightBot ul li{
+   line-height: 25px;
+    list-style: none;
+    color: hsl(0, 100%, 100%);
+}
+.LeftBot button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 12px;
+    margin-top: 30px;
+    cursor: pointer;
+}
